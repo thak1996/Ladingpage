@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* { /*O * faz com que seja globalmente ativo, sempre que utilizar isto , ajusta de uma forma prática todo o documento*/
+  margin: 0; /*Zerando as bordas globalmente*/
+  padding: 0; /*Define uma a distância entre o conteúdo de um elemento e suas bordas*/
+  box-sizing: border-box; /*Define um tamanho padrão para a largura e altura da box, retirando o padrão do navegador */
+  text-decoration: none; /*Retira toda a estilização da fonte*/
+}
+
+/* Corpo do Documento */
+body {
+  font-size: 100%; /*Aplica que todas as fontes tem o tamanho padrão em 100% */
+  background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%); /*Aplica gradiente ao background da página*/
+}
+
+/*Começo do Header */
+.cabecalho {
+  display: flex; /*A propriedade especifica o comportamento de exibição (o tipo de caixa de renderização) de um elemento*/
+  flex-direction: row; /*Direção da esquerda para a direita*/
+  align-items: center; /*Ajuste do container para centralizar*/
+  justify-content: space-around; /*Alinhamento do coneúdo*/
+  flex-wrap: wrap; /*Por padrão todos os itens vão se ajustando em uma única ilha.*/
+  padding: 24px; /*Define uma a distância entre o conteúdo de um elemento e suas bordas*/
+}
+
+.cabecalho-imagem {
+  height: 72px; /*Determina a altura da área do conteúdo de um elemento*/
+}
+
+.navmenu {
+  display: flex; /*A propriedade especifica o comportamento de exibição (o tipo de caixa de renderização) de um elemento*/
+  gap: 32px; /*A propriedade define o tamanho da lacuna entre as linhas e colunas em um layout de grade*/
+}
+
+.navbutton {
+  font-family: 'Sarala', sans-serif; /*Altera a fonte da letra*/
+  color: #FFF2E7; /*Altera a cor da fonte*/
+  font-size: 18px; /*Altera o tamanho da fonte*/
+  font-weight: 400px; /*Altera o " negrito " dá letra*/
+}
+
+.principal {
+  border-top: 0.4px solid #FFF2E7; /*Borda na parte de cima*/
+  margin-bottom: 48px; /*Margim na parte de baixo*/
+}
+
+.principal-sessao1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.principal-sessoa1-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.principal-sessoa1-1-1 {
+  font-family: 'Righteous', cursive;
+  font-size: 64px;
+  color: #FFF2E7;
+  font-weight: 400;
+}
+
+.principal-sessoa1-1-2 {
+  font-family: 'Sarala', sans-serif;
+  font-size: 24px;
+  color: #ECD6C4;
+  font-weight: 400;
+}
+
+.principal-buttom {
+  background-color: #ECD6C4; /*Adiciona cor no background*/
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25); /*Adiciona Sombra*/
+  border-radius: 20px;
+  font-family: 'Sarala', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  width: 185px;
+  height: 67px;
+  border: none; /*Retira a borda*/
+  color: #2F2325;
+}
+
+.principal-buttom:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.principal-sessoa1-2 {
+  height: 430px;
+}
+
+/*Começo do conteúdo principal 2*/
+.principal-1-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.principal-11 {
+  border-top: 0.4px solid #FFF2E7;
+  font-family: 'Righteous', cursive;
+  font-size: 24px;
+  color: #FFF2E7;
+  font-weight: 400;
+  padding-top: 48px; /*Um espaçamento somente no top*/
+  margin-bottom: 16px;
+}
+
+.principal-1 {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ECD6C4;
+}
+
+/*Começo do rodapé*/
+.footer {
+  border-top: 0.4px solid #FFF2E7;
+  padding: 32px;
+}
+
+.footer1 {
+  height: 48px;
+  display: block; /*Transforma o item em um bloco*/
+  margin: 0 auto; /*Uma forma de centralizar o item sem precisar transformar em display*/
+}
