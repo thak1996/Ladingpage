@@ -1,4 +1,4 @@
-﻿# ladingpage
+﻿# ladingPage
 
 Estudo feito com base em vídeo Rafaella Ballenire: 
 <a href="https://www.youtube.com/watch?v=llF6vD-RljE&ab_channel=RafaellaBallerini" target="_blank">Vídeo!</a>
